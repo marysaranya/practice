@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica,sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+    
+}
+.main{
+    background-color: white;
+    padding: 70px;
+    height: 600px;
+    border-radius: 20px 0 0px 20px;
+}
+form input[type="text"],input[type="password"]{
+    display: block;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #333;
+}
+.control span{
+    font-size: small;
+    color: red;
+    display: block;
+}
+.main1{
+    display: flex;
+    justify-content: space-around; 
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;  
+}
+.main2 img{
+    border-radius: 0px 20px 20px 0px;
+    padding: 85px 200px 200px 200px;
+    background-color: white;   
+}
+.lol i{
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.two{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.four{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.three{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+#tc{
+    margin-top: 30px;
+}
+.resister{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+ input[type="submit"]{
+    padding: 20px 30px;
+    border: 0;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 15px;
+
+}
+
+@media screen and (max-width:395px){
+    .main1{
+        display: block;
+    }
+}
+
+
